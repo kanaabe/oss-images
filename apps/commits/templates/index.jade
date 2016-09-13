@@ -1,0 +1,16 @@
+include ../../../components/search/mixin
+
+doctype html
+html
+  head
+    title Artsy Public
+    link( type='text/css', rel='stylesheet', href=('/assets/commits' + sd.CSS_EXT) )
+  body
+    h1 Explore Artsy's Public Domain Images
+    mixin search('Try "photography" or "early-renaissance" and hit then enter.')
+    ul#commits-list
+      include list
+    button Show More
+    #scripts
+      != sharify.script()
+      script( src='/assets/commits' + sd.JS_EXT )

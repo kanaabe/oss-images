@@ -1,0 +1,34 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "make s"
+  },
+  "dependencies": {
+    "backbone": "*",
+    "backbone-super-sync": "*",
+    "coffee-script": "*",
+    "express": "*",
+    "jade": "*",
+    "node-env-file": "*",
+    "sharify": "*",
+    "superagent": "^2.2.0"
+  },
+  "devDependencies": {
+    "jquery": "*",
+    "browserify": "*",
+    "stylus": "*",
+    "jadeify": "*",
+    "browserify-dev-middleware": "*",
+    "should": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "benv": "*",
+    "zombie": "*",
+    "html5": "*",
+    "sqwish": "*",
+    "uglify-js": "*",
+    "caching-coffeeify": "*"
+  }
+}
